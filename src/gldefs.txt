@@ -1,0 +1,90 @@
+brightmap texture COMPA1
+{
+   map COMPAB1
+}
+
+brightmap texture COMPA2
+{
+   map COMPAB2
+}
+
+brightmap texture COMPA3
+{
+   map COMPAB3
+}
+
+brightmap texture COMPA4
+{
+   map COMPAB4
+}
+
+brightmap texture LASER01
+{
+   map LASERB
+}
+
+brightmap texture LASER02
+{
+   map LASERB
+}
+
+brightmap texture LASER201
+{
+   map LASER2B
+}
+
+brightmap texture LASER202
+{
+   map LASER2B
+}
+
+brightmap texture COMPSPA2
+{
+   map COMPSPX2
+}
+
+brightmap texture COMPP1
+{
+   map COMPX1
+}
+
+brightmap texture COMPBLUX
+{
+   map COMPBLUB
+}
+
+brightmap flat COMPBLUX
+{
+   map COMPBLFB
+}
+
+brightmap flat COMPTIME
+{
+   map COMPTIMB
+}
+
+glow
+{
+   flats
+   {
+      ONUKEA01
+      ONUKEA02
+      ONUKEA03
+      ONUKEA04
+      ONUKEA05
+      ONUKEA06
+      ONUKEA07
+      ONUKEA08
+
+      OLAVAC01
+      OLAVAC02
+      OLAVAC03
+      OLAVAC04
+      OLAVAC05
+      OLAVAC06
+      OLAVAC07
+      OLAVAC08
+
+      TLITE6_X
+   }
+}

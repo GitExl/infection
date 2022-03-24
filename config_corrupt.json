@@ -1,0 +1,28 @@
+{
+  "dest_path_sprites": "src/sprites/corrupted",
+  "dest_path_sounds": "src/sounds/corrupted",
+
+  "sprites": {
+    "TROO": "SP20",
+    "SARG": "SP23",
+    "CPOS": "SP24"
+  },
+  "sounds": {
+    "DSBGACT": "DSFRE020.wav",
+    "DSBGDTH2": "DSFRE021.wav",
+    "DSBGSIT1": "DSFRE022.wav",
+    "DSDMACT": "DSFRE023.wav",
+    "DSPODTH2": "DSFRE024.wav",
+    "DSPOPAIN": "DSFRE025.wav",
+    "DSPOSACT": "DSFRE026.wav",
+    "DSSGTATK": "DSFRE027.wav",
+    "DSSGTDTH": "DSFRE028.wav",
+    "DSSGTSIT": "DSFRE029.wav",
+    "DSPOSIT2": "DSFRE030.wav",
+    "DSPOPAIN": "DSFRE031.wav",
+    "DSDMPAIN": "DSFRE032.wav"
+  },
+
+  "corrupt_lines": 3,
+  "corrupt_blocks": 5
+}

@@ -1,0 +1,48 @@
+setdialect("ALFHEIM")
+stdinclude("root.edf")
+
+thingtype GradA : Mobj, 6890 {
+  Height 64
+  Radius 32
+  Mass 1
+  Translucency 10%
+  
+  addflags NOBLOCKMAP|SPAWNCEILING|NOGRAVITY|TRANSLUCENT|TLSTYLEADD
+  
+  states
+  @"
+    Spawn:
+      GRAD B -1
+      Stop
+  "@
+}
+
+thingtype SaveDisk : Mobj, 10101 {
+  // placeholder to prevent unknown object <!> icons in map
+
+  Height 20
+  Radius 16
+  Mass 2
+
+  states
+  @"
+    Spawn:
+      TNT1 A -1
+      Stop
+  "@
+}
+
+thingtype CorruptSaveDisk : Mobj, 10102 {
+  // placeholder to prevent unknown object <!> icons in map
+
+  Height 20
+  Radius 16
+  Mass 2
+
+  states
+  @"
+    Spawn:
+      TNT1 A -1
+      Stop
+  "@
+}

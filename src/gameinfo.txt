@@ -1,0 +1,3 @@
+IWAD = "doom2.wad"
+STARTUPTITLE = "UAC DOS / v8.7"
+STARTUPCOLORS = "000000", "ff0012"

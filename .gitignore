@@ -1,0 +1,24 @@
+# Python dev
+/.idea
+__pycache__
+
+# Unneeded binary files.
+/__sort
+/releases
+/sources
+/screenshots
+
+# Build artifacts.
+/data.wad
+/infectio.wad
+/used_*.csv
+
+# Local/backup files.
+*.bak
+*.backup*
+*.dbs
+*.whacked
+
+# Local configuration overrides.
+config_assemble_local.json
+config_corrupt_local.json

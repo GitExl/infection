@@ -1,0 +1,101 @@
+===========================================================================
+Advanced engine needed  : Any limit removing port that supports Boom,
+                          MBF21, DEHEXTRA and UMAPINFO. Extra visual
+                          effects are available in GZDoom.
+Primary purpose         : Single play
+===========================================================================
+Title                   : Infection
+Filename                : infectio.wad
+Release date            : ???
+Author                  : Exl
+Email Address           : dennis.meuwissen+idgames@gmail.com
+Other Files By Author   : Verdant Citadel (vercit)
+                          Waystation M-00 (Doomworld Mega Project 2013)
+                          Demons of Problematique (dop & dop2)
+                          ...lots of older stuff
+
+Description             : UAC Research Base Delta has unexpectedly gone
+                          dark. Delta base, situated in an undisclosed
+                          location in the northern United States, is
+                          tasked with experimenting on salvaged remnants
+                          of the demon army that invaded Mars. Your job
+                          is to find out what the hell happened and
+                          at your own discretion, take care of whatever
+                          evil is taking place there now.
+
+                          This mapset should take around 60 minutes to
+                          complete on Ultra-Violence, provided you don't
+                          die too often. All maps were balanced to be
+                          played in order, though pistol starts are
+                          doable with some extra effort.
+
+                          This was tested with GZDoom, DSDADoom and PrBoom+
+                          UM. It should be playable in all limit removing
+                          source ports that have support for MBF21,
+                          DEHEXTRA and UMAPINFO. There are a few minor
+                          enhancements available when playing in GZDoom
+                          and in recent versions of Eternity.
+
+                          Enjoy!
+
+Additional Credits to   : Bethesda Softworks, Bioware, Biodegradable,
+                          Breezeep, Cage, Cammy, CGEffex, Christopher
+                          Laverdure, Clay, Clippy, Degree23, Earthquake,
+                          Emerson Tung, Enjay, Eris Falling,
+                          Esselfortium, horselessheadsman, Jimmy, JXC,
+                          Keyboard_Doomer, Kor, KWC, Malinku, Mechadon,
+                          Muddy, Nick Baker, Pistoolkip, princetontiger,
+                          Raven Software, RDETalus, Ukiru, Varis Alpha,
+                          Velvetic, Vile
+===========================================================================
+* What is included *
+
+New levels              : 7
+Sounds                  : No
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : Yes
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : 01 - 07
+Single Player           : Designed for
+Cooperative 2-4 Player  : Player starts only
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Yes
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : 8 months
+Editor(s) used          : Ultimate Doom Builder, SLADE, Photoshop,
+                          Audacity
+Tested With             : GZDoom (4.7.1), PrBoom+ UM, DSDADoom, Eternity
+                          (dev builds as of 13th March 2022)
+
+
+* Copyright / Permissions *
+
+This work is licensed under the Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International License. To view a
+copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/
+
+You are free to copy and redistribute the material in any medium or format;
+and remix, transform, and build upon the material. If you do so, you must
+give appropriate credit, provide a link to the license, and indicate if
+changes were made. You may do so in any reasonable manner, but not in any way
+that suggests the licensor endorses you or your use. You may not use the
+material for commercial purposes. If you remix, transform, or build upon the
+material, you must distribute your contributions under the same license as
+the original.
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors

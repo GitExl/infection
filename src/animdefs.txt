@@ -1,0 +1,27 @@
+warp2 texture OWATER01 0.666
+warp2 texture OWATER02 0.666
+warp2 texture OWATER03 0.666
+warp2 texture OWATER04 0.666
+warp2 texture OWATER05 0.666
+warp2 texture OWATER06 0.666
+warp2 texture OWATER07 0.666
+warp2 texture OWATER08 0.666
+
+warp2 texture ONUKEA01 0.5
+warp2 texture ONUKEA02 0.5
+warp2 texture ONUKEA03 0.5
+warp2 texture ONUKEA04 0.5
+warp2 texture ONUKEA05 0.5
+warp2 texture ONUKEA06 0.5
+warp2 texture ONUKEA07 0.5
+warp2 texture ONUKEA08 0.5
+
+warp texture OLAVAC01 0.333
+warp texture OLAVAC02 0.333
+warp texture OLAVAC03 0.333
+warp texture OLAVAC04 0.333
+warp texture OLAVAC05 0.333
+warp texture OLAVAC06 0.333
+warp texture OLAVAC07 0.333
+warp texture OLAVAC08 0.333
+

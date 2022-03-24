@@ -1,0 +1,65 @@
+Actor GradA 6890 {
+  //$Title Grad A
+  //$Category Gradients
+
+  Height 64
+  Radius 32
+  Mass 1
+  RenderStyle Add
+  Alpha 0.125
+  Scale 1
+
+  +NOBLOCKMAP
+  +SPAWNCEILING
+  +NOGRAVITY
+  +DONTFALL
+  +NOINTERACTION
+
+  States {
+    Spawn:
+      GRAD A -1
+      Stop
+  }
+}
+
+Actor SaveDisk : CustomInventory 10101 {
+  //$Title Save Disk
+  //$Category Powerups
+
+  Height 20
+  Radius 16
+  Mass 2
+
+  +BRIGHT
+
+  Inventory.PickupMessage "Autosaving..."
+
+  States {
+    Spawn:
+      SP12 AB 20
+      Loop
+    Pickup:
+      TNT1 A 0 AutoSave
+      Stop
+  }
+}
+
+Actor CorruptSaveDisk 10102 {
+  //$Title Corrupted Save Disk
+  //$Category Powerups
+
+  Height 20
+  Radius 16
+  Mass 2
+
+  +NOBLOCKMAP
+  +NOINTERACTION
+  +BRIGHT
+
+  States {
+    Spawn:
+      SP12 CD 4
+      SP12 CD 8
+      Loop
+  }
+}

@@ -1,0 +1,125 @@
+map MAP01 {
+  levelname = "Waste Station"
+  skytexture = "ESKY1"
+  partime = 300
+  music = "CFANGS"
+  next = "MAP02"
+  exitpic = "INTER01X"
+  enterpic = "INTER01E"
+}
+
+map MAP02 {
+  levelname = "Loading Zone"
+  skytexture = "ESKY1"
+  partime = 270
+  music = "REACH"
+  next = "MAP03"
+  exitpic = "INTER02X"
+  enterpic = "INTER02E"
+}
+
+map MAP03 {
+  levelname = "Waystation M-01"
+  skytexture = "ESKY1"
+  partime = 300
+  music = "LIBRARY"
+  next = "MAP04"
+  exitpic = "INTER03X"
+  enterpic = "INTER03E"
+  interbackdrop = "README"
+  intermusic = "D_EVIL"
+  intertext =
+    "",
+    "",
+    "",
+    "You've reached the data bunker, the",
+    "central storage location for all the",
+    "data gathered from the UAC's",
+    "experiments. You seem to be getting",
+    "closer to the source of the invasion.",
+    "",
+    "A strange atmosphere surrounds you,",
+    "as if there is a larger presence at",
+    "work here..."
+}
+
+map MAP04 {
+  levelname = "Data Bunker"
+  skytexture = "ESKY1"
+  partime = 510
+  music = "HANGAR7"
+  next = "MAP05"
+  exitpic = "INTER04X"
+  enterpic = "INTER04E"
+}
+
+map MAP05 {
+  levelname = "Infected Core"
+  skytexture = "ESKY1"
+  partime = 420
+  music = "ARCADIA"
+  next = "MAP06"
+  exitpic = "INTER05X"
+  enterpic = "INTER05E"
+  bossaction = Cyberdemon, 23, 70
+}
+
+map MAP06 {
+  levelname = "Escape Route"
+  label = "EAc/pe Rou|e)"
+  skytexture = "ESKY1"
+  partime = 240
+  music = "D_DM2INT"
+  next = "MAP07"
+  exitpic = "INTER06X"
+  enterpic = "INTER06E"
+  interbackdrop = "README"
+  intermusic = "D_EVIL"
+  intertext =
+    "",
+    "",
+    "",
+    "",
+    "",
+    "You were tricked into believing your",
+    "escape was real! But the demonic",
+    "infection could not keep the illusion",
+    "stable. It broke apart at the seams,",
+    "which gives you a chance to eliminate",
+    "the infection, once and for all!"
+}
+
+map MAP07 {
+  levelname = "Infected Core"
+  skytexture = "ESKY1"
+  partime = 60
+  music = "ANTRSOLU"
+  exitpic = "INTER05X"
+  enterpic = "INTER05E"
+  endpic = "END"
+  bossaction = clear
+  interbackdrop = "README"
+  intermusic = "D_EVIL"
+  intertext =
+    "",
+    "",
+    "",
+    "After incinerating the infection",
+    "you make your way out of the base,",
+    "for real this time.",
+    "",
+    "The UAC took their experiments too",
+    "far again, and it cost them dearly.",
+    "You've taken care of this one, but",
+    "who knows what else the they have",
+    "going on in their other labs..."
+}
+
+map MAP32 {
+  levelname = "Test"
+  skytexture = "ESKY1"
+  partime = 666
+  music = "D_EVIL"
+  bossaction = clear
+  bossaction = BossBrain, 11, 0
+}

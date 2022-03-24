@@ -1,0 +1,26 @@
+floor OWATER01 Water
+floor OWATER02 Water
+floor OWATER03 Water
+floor OWATER04 Water
+floor OWATER05 Water
+floor OWATER06 Water
+floor OWATER07 Water
+floor OWATER08 Water
+
+floor ONUKEA01 Sludge
+floor ONUKEA02 Sludge
+floor ONUKEA03 Sludge
+floor ONUKEA04 Sludge
+floor ONUKEA05 Sludge
+floor ONUKEA06 Sludge
+floor ONUKEA07 Sludge
+floor ONUKEA08 Sludge
+
+floor OLAVAC01 Lava
+floor OLAVAC02 Lava
+floor OLAVAC03 Lava
+floor OLAVAC04 Lava
+floor OLAVAC05 Lava
+floor OLAVAC06 Lava
+floor OLAVAC07 Lava
+floor OLAVAC08 Lava

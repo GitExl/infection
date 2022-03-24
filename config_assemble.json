@@ -1,0 +1,104 @@
+{
+  "iwad": "c:/doom/doom2/doom2.wad",
+  "source_path": "src",
+
+  "palette_from_file": false,
+  "palette_overrides": {
+    "INTER*": "file",
+    "CREDIT": "file",
+    "TITLEPIC": "file",
+    "HELP": "file",
+    "END": "file",
+    "README": "file",
+    "M_DOOM": "file",
+    "SCREEN*": "file",
+    "SCRENS*": "file",
+    "COMP4UC*": "file",
+    "COMPCOM": "file",
+    "COMPSIN*": "file",
+    "RJDGRAS*": "file",
+    "POSS*": "file",
+    "SPOS*": "file",
+    "TROO*": "file",
+    "SARG*": "file",
+    "SP12*": "file"
+  },
+  "transparent_color_index": 247,
+
+  "offsets": {
+    "graphics": {
+      "M_DOOM": [94, 2]
+    },
+    "sprites": {
+      "GRADA0": [32, 67],
+      "GRADB0": [32, 67],
+      "SP01A0": [28, 48],
+      "SP02A0": [60, 80],
+      "SP03A0": [29, 33],
+      "SP03B0": [39, 72],
+      "SP03C0": [54, 82],
+      "SP03D0": [55, 98],
+      "SP04A0": [257, 330],
+      "SP04B0": [106, 197],
+      "SP05A0": [8, 34],
+      "SP06A0": [9, 42],
+      "SP07A0": [26, 151],
+      "SP08A0": [30, 47],
+      "SP09A0": [25, 23],
+      "SP10A0": [64, 256],
+      "SP11A0": [10, 11],
+      "SP11B0": [12, 11],
+      "SP11C0": [13, 19],
+      "SP11D0": [15, 19],
+      "SP12A0": [8, 15],
+      "SP12B0": [8, 15],
+      "SP12C0": [8, 15],
+      "SP12D0": [8, 15]
+    }
+  },
+
+  "used_textures": [
+    "ESKY1",
+    "COMPAB1",
+    "COMPAB2",
+    "COMPAB3",
+    "COMPAB4",
+    "COMPSPX2",
+    "COMPX1",
+    "LASERB",
+    "LASER2B",
+    "COMPBLUB",
+    "COMPTIMB"
+  ],
+  "used_flats": [
+    "COMPBLFB"
+  ],
+
+  "removed_unused_flats": false,
+  "removed_unused_textures": false,
+  "removed_unused_patches": false,
+
+  "disabled_namespace_writing": [],
+
+
+  "targets": {
+    "resources": {
+      "output_wad": "data.wad",
+
+      "disabled_namespace_writing": [
+        "maps"
+      ],
+
+      "usage_report_textures": "used_textures.csv",
+      "usage_report_flats": "used_flats.csv"
+    },
+
+    "release": {
+      "output_wad": "infectio.wad",
+
+      "removed_unused_flats": true,
+      "removed_unused_textures": true,
+      "removed_unused_patches": true
+    }
+  }
+}

@@ -1,0 +1,60 @@
+Textures
+
+Cage
+Earthquake
+Enjay
+horselessheadsman
+Jimmy
+KWC
+Malinku
+Mechadon
+Nick Baker
+RDETalus
+Ukiru
+
+
+Music
+
+Cammy
+Christopher Laverdure
+Eris Falling
+Jimmy
+Muddy
+Varis Alpha
+Velvetic
+
+
+Sound
+
+Bethesda Softworks
+Bioware
+CGEffex
+Raven Software
+
+
+Sprites
+
+Clay
+Esselfortium
+Jimmy
+
+
+Graphics
+
+Emerson Tung
+
+
+Playtesting
+
+Biodegradable
+Breezeep
+Clippy
+Degree23
+horselessheadsman
+JXC
+Keyboard_Doomer
+Kor
+kwc
+Pistoolkip
+princetontiger
+Vile
