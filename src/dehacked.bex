@@ -15,26 +15,26 @@ Height = 4194304
 Thing 151 (Cattail 1)
 ID # = 4094
 Initial frame = 1089
-Bits = NOBLOCKMAP+NOCLIP
+Bits = NOCLIP+NOBLOCKMAP
 
 Thing 152 (Cattail 2)
 ID # = 4095
 Initial frame = 1090
-Bits = NOBLOCKMAP+NOCLIP
+Bits = NOCLIP+NOBLOCKMAP
 
 Thing 153 (Wires)
 ID # = 4030
 Initial frame = 1094
 Width = 1900544
 Height = 3145728
-Bits = NOGRAVITY+NOBLOCKMAP+SPAWNCEILING
+Bits = SPAWNCEILING+NOGRAVITY+NOBLOCKMAP
 
 Thing 154 (Vines)
 ID # = 4014
 Initial frame = 1107
 Width = 3145728
 Height = 5242880
-Bits = NOGRAVITY+NOBLOCKMAP+SPAWNCEILING
+Bits = SPAWNCEILING+NOGRAVITY+NOBLOCKMAP
 
 Thing 155 (Connected Cyberdemon)
 ID # = 4050
@@ -42,7 +42,7 @@ Initial frame = 1110
 Width = 4194304
 Height = 16777216
 Mass = 500
-Bits = NOGRAVITY+NOBLOCKMAP+SPAWNCEILING
+Bits = SPAWNCEILING+NOGRAVITY+NOBLOCKMAP
 
 Thing 157 (Bush 1)
 ID # = 4010
@@ -98,7 +98,7 @@ ID # = 4023
 Initial frame = 1092
 Width = 1179648
 Height = 1572864
-Bits = NOBLOCKMAP+NOCLIP
+Bits = NOCLIP+NOBLOCKMAP
 
 Thing 165 (Rock)
 ID # = 4024
@@ -109,37 +109,37 @@ Height = 1638400
 Thing 166 (Ambient: Wind 1)
 ID # = 9950
 Initial frame = 1101
-Bits = NOGRAVITY+NOBLOCKMAP+NOCLIP+NOSECTOR
+Bits = NOSECTOR+NOCLIP+NOGRAVITY+NOBLOCKMAP
 
 Thing 167 (Ambient: Core drone)
 ID # = 9951
 Initial frame = 1103
-Bits = NOGRAVITY+NOBLOCKMAP+NOCLIP+NOSECTOR
+Bits = NOSECTOR+NOCLIP+NOGRAVITY+NOBLOCKMAP
 
 Thing 168 (Ambient: Laser hum)
 ID # = 9952
 Initial frame = 1104
-Bits = NOGRAVITY+NOBLOCKMAP+NOCLIP+NOSECTOR
+Bits = NOSECTOR+NOCLIP+NOGRAVITY+NOBLOCKMAP
 
 Thing 169 (Ambient: Water drip)
 ID # = 9953
 Initial frame = 1105
-Bits = NOGRAVITY+NOBLOCKMAP+NOCLIP+NOSECTOR
+Bits = NOSECTOR+NOCLIP+NOGRAVITY+NOBLOCKMAP
 
 Thing 170 (Ambient: Shallow water)
 ID # = 9954
 Initial frame = 1106
-Bits = NOGRAVITY+NOBLOCKMAP+NOCLIP+NOSECTOR
+Bits = NOSECTOR+NOCLIP+NOGRAVITY+NOBLOCKMAP
 
 Thing 171 (Ambient: Waterfall)
 ID # = 9955
 Initial frame = 1108
-Bits = NOGRAVITY+NOBLOCKMAP+NOCLIP+NOSECTOR
+Bits = NOSECTOR+NOCLIP+NOGRAVITY+NOBLOCKMAP
 
 Thing 172 (Ambient: Wind 2)
 ID # = 9956
 Initial frame = 1109
-Bits = NOGRAVITY+NOBLOCKMAP+NOCLIP+NOSECTOR
+Bits = NOSECTOR+NOCLIP+NOGRAVITY+NOBLOCKMAP
 
 Thing 173 (Tuft 1)
 ID # = 4090
@@ -172,22 +172,22 @@ Bits = NOBLOCKMAP
 Thing 177 (Ambient: Computers)
 ID # = 9957
 Initial frame = 1115
-Bits = NOGRAVITY+NOBLOCKMAP+NOCLIP+NOSECTOR
+Bits = NOSECTOR+NOCLIP+NOGRAVITY+NOBLOCKMAP
 
 Thing 178 (Ambient: Teleporter)
 ID # = 9958
 Initial frame = 1116
-Bits = NOGRAVITY+NOBLOCKMAP+NOCLIP+NOSECTOR
+Bits = NOSECTOR+NOCLIP+NOGRAVITY+NOBLOCKMAP
 
 Thing 179 (Ambient: Lava)
 ID # = 9959
 Initial frame = 1117
-Bits = NOGRAVITY+NOBLOCKMAP+NOCLIP+NOSECTOR
+Bits = NOSECTOR+NOCLIP+NOGRAVITY+NOBLOCKMAP
 
 Thing 180 (Ambient: Crickets)
 ID # = 9960
 Initial frame = 1118
-Bits = NOGRAVITY+NOBLOCKMAP+NOCLIP+NOSECTOR
+Bits = NOSECTOR+NOCLIP+NOGRAVITY+NOBLOCKMAP
 
 Thing 201 (Corrupted Imp)
 ID # = 4060
@@ -209,7 +209,7 @@ Width = 1835008
 Height = 3670016
 Mass = 100
 Action sound = 520
-Bits = SHOOTABLE+COUNTKILL+SOLID
+Bits = COUNTKILL+SOLID+SHOOTABLE
 Respawn frame = 1158
 Gib health = -60
 Pickup width = 1310720
@@ -233,7 +233,7 @@ Width = 1966080
 Height = 3670016
 Mass = 600
 Action sound = 523
-Bits = SOLID+COUNTKILL+SHOOTABLE+NOBLOOD
+Bits = COUNTKILL+NOBLOOD+SOLID+SHOOTABLE
 Respawn frame = 1184
 Gib health = -150
 Pickup width = 1966080
@@ -257,10 +257,25 @@ Width = 1310720
 Height = 3670016
 Mass = 100
 Action sound = 526
-Bits = SHOOTABLE+COUNTKILL+SOLID
+Bits = COUNTKILL+SOLID+SHOOTABLE
 Respawn frame = 1219
 Gib health = -70
 Pickup width = 1310720
+
+Thing 220 (Dummy light gradient)
+ID # = 6890
+Initial frame = 1337
+Bits = NOSECTOR+NOBLOCKMAP
+
+Thing 221 (Dummy save disk)
+ID # = 10101
+Initial frame = 1337
+Bits = NOSECTOR+NOBLOCKMAP
+
+Thing 222 (Dummy corrupted save disk)
+ID # = 10102
+Initial frame = 1337
+Bits = NOSECTOR+NOBLOCKMAP
 
 Frame 780
 Duration = 135
@@ -950,6 +965,9 @@ Sprite number = 169
 Sprite subnumber = 7
 Duration = 5
 Next frame = 1192
+
+Frame 1337
+Sprite subnumber = 32768
 
 Sound 499 (FRE000)
 Zero/One = 1
