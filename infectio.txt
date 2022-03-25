@@ -12,6 +12,7 @@ Email Address           : dennis.meuwissen+idgames@gmail.com
 Other Files By Author   : Verdant Citadel (vercit)
                           Waystation M-00 (Doomworld Mega Project 2013)
                           Demons of Problematique (dop & dop2)
+                          WhackEd4
                           ...lots of older stuff
 
 Description             : UAC Research Base Delta has unexpectedly gone
@@ -45,8 +46,8 @@ Additional Credits to   : Bethesda Softworks, Bioware, Biodegradable,
                           Esselfortium, horselessheadsman, Jimmy, JXC,
                           Keyboard_Doomer, Kor, KWC, Malinku, Mechadon,
                           Muddy, Nick Baker, Pistoolkip, princetontiger,
-                          Raven Software, RDETalus, Ukiru, Varis Alpha,
-                          Velvetic, Vile
+                          Raven Software, RDETalus, Ukiru, Unraveler,
+                          Varis Alpha, Velvetic, Vile
 ===========================================================================
 * What is included *
 
