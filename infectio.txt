@@ -44,10 +44,10 @@ Additional Credits to   : Bethesda Softworks, Bioware, Biodegradable,
                           Laverdure, Clay, Clippy, Degree23, Earthquake,
                           Emerson Tung, Enjay, Eris Falling,
                           Esselfortium, horselessheadsman, Jimmy, JXC,
-                          Keyboard_Doomer, Kor, KWC, Malinku, Mechadon,
-                          Muddy, Nick Baker, Pistoolkip, princetontiger,
-                          Raven Software, RDETalus, Ukiru, Unraveler,
-                          Varis Alpha, Velvetic, Vile
+                          Keyboard_Doomer, Kor, KWC, Lippeth, Malinku,
+                          Mechadon, Muddy, Nick Baker, Pistoolkip,
+                          princetontiger, Raven Software, Rex705, RDETalus,
+                          Ukiru, Unraveler, Varis Alpha, Velvetic, Vile
 ===========================================================================
 * What is included *
 
