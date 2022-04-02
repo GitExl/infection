@@ -6,7 +6,7 @@ Primary purpose         : Single play
 ===========================================================================
 Title                   : Infection
 Filename                : infectio.wad
-Release date            : ???
+Release date            : 2nd April 2022
 Author                  : Exl
 Email Address           : dennis.meuwissen+idgames@gmail.com
 Other Files By Author   : Verdant Citadel (vercit)
@@ -75,7 +75,7 @@ Difficulty Settings     : Yes
 * Construction *
 
 Base                    : New from scratch
-Build Time              : 8 months
+Build Time              : 9 months
 Editor(s) used          : Ultimate Doom Builder, SLADE, Photoshop,
                           Audacity
 Tested With             : GZDoom (4.7.1), PrBoom+ UM, DSDADoom, Eternity
