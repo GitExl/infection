@@ -108,18 +108,11 @@ map MAP07 {
     "you make your way out of the base,",
     "for real this time.",
     "",
-    "The UAC took their experiments too",
-    "far again, and it cost them dearly.",
-    "You've taken care of this one, but",
-    "who knows what else the they have",
-    "going on in their other labs..."
+    "The UAC's experiments on a captured",
+    "Cyberdemon were a fool's errand.",
+    "Who knows how much further the",
+    "infection would have spread if you",
+    "had not taken care of it?"
 }
 
-map MAP32 {
-  levelname = "Test"
-  skytexture = "ESKY1"
-  partime = 666
-  music = "D_EVIL"
-  bossaction = clear
-  bossaction = BossBrain, 11, 0
-}
+

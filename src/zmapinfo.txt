@@ -58,11 +58,11 @@ cluster 3 {
     "you make your way out of the base,",
     "for real this time.",
     "",
-    "The UAC took their experiments too",
-    "far again, and it cost them dearly.",
-    "You've taken care of this one, but",
-    "who knows what else the they have",
-    "going on in their other labs..."
+    "The UAC's experiments on a captured",
+    "Cyberdemon were a fool's errand.",
+    "Who knows how much further the",
+    "infection would have spread if you",
+    "had not taken care of it?"
 }
 
 map MAP01 "Waste Station" {
@@ -129,8 +129,3 @@ map MAP07 "Infected Core" {
   Cluster = 3
 }
 
-map MAP32 "Test" {
-  Par = 666
-  Music = "D_EVIL"
-  SpecialAction = "BossBrain", "Exit_Normal"
-}
