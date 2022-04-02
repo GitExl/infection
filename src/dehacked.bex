@@ -272,7 +272,7 @@ ID # = 10101
 Initial frame = 1337
 Bits = NOSECTOR+NOBLOCKMAP
 
-Thing 222 (Dummy corrupted save disk)
+Thing 222 (Dummy save disk)
 ID # = 10102
 Initial frame = 1337
 Bits = NOSECTOR+NOBLOCKMAP
