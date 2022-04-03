@@ -46,8 +46,9 @@ Additional Credits to   : Bethesda Softworks, Bioware, Biodegradable,
                           Esselfortium, horselessheadsman, Jimmy, JXC,
                           Keyboard_Doomer, Kor, KWC, Lippeth, Malinku,
                           Mechadon, Muddy, Nick Baker, Pistoolkip,
-                          princetontiger, Raven Software, Rex705, RDETalus,
-                          Ukiru, Unraveler, Varis Alpha, Velvetic, Vile
+                          princetontiger, rando, Raven Software, Rex705,
+                          RDETalus, Ukiru, Unraveler, Varis Alpha,
+                          Velvetic, Vile
 ===========================================================================
 * What is included *
 
