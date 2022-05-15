@@ -8,7 +8,7 @@ Title                   : Infection
 Filename                : infectio.wad
 Release date            : 2nd April 2022
 Author                  : Exl
-Email Address           : dennis.meuwissen+idgames@gmail.com
+Email Address           : dennis.meuwissen@gmail.com
 Other Files By Author   : Verdant Citadel (vercit)
                           Waystation M-00 (Doomworld Mega Project 2013)
                           Demons of Problematique (dop & dop2)
