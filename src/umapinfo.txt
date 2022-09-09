@@ -115,4 +115,12 @@ map MAP07 {
     "had not taken care of it?"
 }
 
-
+map MAP10 {
+  levelname = "Spillways"
+  skytexture = "ESKY1"
+  partime = 999
+  music = "-"
+  next = "MAP05"
+  exitpic = "INTER04X"
+  enterpic = "INTER04E"
+}

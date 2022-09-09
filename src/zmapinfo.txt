@@ -129,3 +129,11 @@ map MAP07 "Infected Core" {
   Cluster = 3
 }
 
+map MAP10 "Spillways" {
+  Par = 999
+  Music = "-"
+  Next = "MAP03"
+  ExitPic = "INTER06X"
+  EnterPic = "INTER06E"
+  Cluster = 1
+}
