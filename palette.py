@@ -91,7 +91,7 @@ for i in range(1, 5):
 # Radsuit
 palettes.append(base.mix(Color.from_rgb(0, 255, 0), 0.125))
 
-base.write_image('playpal.png')
+base.write_image('palette.png')
 with open('src/playpal.lmp', 'wb') as f:
     for index, palette in enumerate(palettes):
         palette.append_data(f)
