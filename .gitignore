@@ -22,3 +22,6 @@ __pycache__
 # Local configuration overrides.
 config_assemble_local.json
 config_corrupt_local.json
+
+# Generated palette for inspection.
+/playpal.png
