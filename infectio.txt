@@ -4,9 +4,9 @@ Advanced engine needed  : Any limit removing port that supports Boom,
                           effects are available in GZDoom.
 Primary purpose         : Single play
 ===========================================================================
-Title                   : Infection
-Filename                : infectio.wad
-Release date            : 2nd April 2022
+Title                   : Infection.B
+Filename                : infectib.wad
+Release date            : ???
 Author                  : Exl
 Email Address           : dennis.meuwissen@gmail.com
 Other Files By Author   : Verdant Citadel (vercit)
@@ -37,6 +37,8 @@ Description             : UAC Research Base Delta has unexpectedly gone
                           enhancements available when playing in GZDoom
                           and in recent versions of Eternity.
 
+                          Compared to the previous version, [...]
+
                           Enjoy!
 
 Additional Credits to   : Bethesda Softworks, Bioware, Biodegradable,
@@ -52,7 +54,7 @@ Additional Credits to   : Bethesda Softworks, Bioware, Biodegradable,
 ===========================================================================
 * What is included *
 
-New levels              : 7
+New levels              : 8
 Sounds                  : No
 Music                   : Yes
 Graphics                : Yes
@@ -65,7 +67,7 @@ Other files required    : None
 * Play Information *
 
 Game                    : Doom 2
-Map #                   : 01 - 07
+Map #                   : 01 - 08
 Single Player           : Designed for
 Cooperative 2-4 Player  : Player starts only
 Deathmatch 2-4 Player   : No
@@ -76,7 +78,7 @@ Difficulty Settings     : Yes
 * Construction *
 
 Base                    : New from scratch
-Build Time              : 9 months
+Build Time              : 10 months
 Editor(s) used          : Ultimate Doom Builder, SLADE, Photoshop,
                           Audacity
 Tested With             : GZDoom (4.7.1), PrBoom+ UM, DSDADoom, Eternity
