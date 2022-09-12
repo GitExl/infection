@@ -131,7 +131,7 @@ map MAP07 "Infected Core" {
 
 map MAP10 "Spillways" {
   Par = 999
-  Music = "VISCERAL"
+  Music = "OTHERW"
   Next = "MAP03"
   ExitPic = "INTER06X"
   EnterPic = "INTER06E"

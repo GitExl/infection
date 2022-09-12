@@ -119,7 +119,7 @@ map MAP10 {
   levelname = "Spillways"
   skytexture = "ESKY1"
   partime = 999
-  music = "VISCERAL"
+  music = "OTHERW"
   next = "MAP05"
   exitpic = "INTER04X"
   enterpic = "INTER04E"
