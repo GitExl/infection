@@ -19,13 +19,23 @@ map MAP02 {
 }
 
 map MAP03 {
+  levelname = "Spillways"
+  skytexture = "ESKY1"
+  partime = 180
+  music = "OTHERW"
+  next = "MAP04"
+  exitpic = "INTER03X"
+  enterpic = "INTER03E"
+}
+
+map MAP04 {
   levelname = "Waystation M-01"
   skytexture = "ESKY1"
   partime = 300
   music = "LIBRARY"
   next = "MAP04"
-  exitpic = "INTER03X"
-  enterpic = "INTER03E"
+  exitpic = "INTER04X"
+  enterpic = "INTER04E"
   interbackdrop = "README"
   intermusic = "D_EVIL"
   intertext =
@@ -43,36 +53,36 @@ map MAP03 {
     "work here..."
 }
 
-map MAP04 {
+map MAP05 {
   levelname = "Data Bunker"
   skytexture = "ESKY1"
   partime = 510
   music = "HANGAR7"
   next = "MAP05"
-  exitpic = "INTER04X"
-  enterpic = "INTER04E"
+  exitpic = "INTER05X"
+  enterpic = "INTER05E"
 }
 
-map MAP05 {
+map MAP06 {
   levelname = "Infected Core"
   skytexture = "ESKY1"
   partime = 420
   music = "ARCADIA"
   next = "MAP06"
-  exitpic = "INTER05X"
-  enterpic = "INTER05E"
+  exitpic = "INTER06X"
+  enterpic = "INTER06E"
   bossaction = Cyberdemon, 23, 70
 }
 
-map MAP06 {
+map MAP07 {
   levelname = "Escape Route"
   label = "EAc/pe Rou|e)"
   skytexture = "ESKY1"
   partime = 240
   music = "D_DM2INT"
   next = "MAP07"
-  exitpic = "INTER06X"
-  enterpic = "INTER06E"
+  exitpic = "INTER07X"
+  enterpic = "INTER07E"
   interbackdrop = "README"
   intermusic = "D_EVIL"
   intertext =
@@ -89,13 +99,13 @@ map MAP06 {
     "the infection, once and for all!"
 }
 
-map MAP07 {
+map MAP08 {
   levelname = "Infected Core"
   skytexture = "ESKY1"
   partime = 60
   music = "ANTRSOLU"
-  exitpic = "INTER05X"
-  enterpic = "INTER05E"
+  exitpic = "INTER06X"
+  enterpic = "INTER06E"
   endpic = "END"
   bossaction = clear
   interbackdrop = "README"
@@ -113,14 +123,4 @@ map MAP07 {
     "Who knows how much further the",
     "infection would have spread if you",
     "had not taken care of it?"
-}
-
-map MAP10 {
-  levelname = "Spillways"
-  skytexture = "ESKY1"
-  partime = 999
-  music = "OTHERW"
-  next = "MAP05"
-  exitpic = "INTER04X"
-  enterpic = "INTER04E"
 }
