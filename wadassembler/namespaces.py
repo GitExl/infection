@@ -84,4 +84,12 @@ namespaces = {
         'filter': filter_unused_textures,
         'writer': write_textures,
     },
+
+    'tx': {
+        'patterns': {
+            'tx/**/*.png': [read_raw],
+        },
+        'markers': ['TX_START', 'TX_END'],
+        'writer': write_raw,
+    },
 }

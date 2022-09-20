@@ -11,7 +11,7 @@ __pycache__
 
 # Build artifacts.
 /data.wad
-/infectio.wad
+/infectib.wad
 /used_*.csv
 
 # Local/backup files.

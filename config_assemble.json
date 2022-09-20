@@ -96,7 +96,7 @@
     },
 
     "release": {
-      "output_wad": "infectio.wad",
+      "output_wad": "infectib.wad",
 
       "removed_unused_flats": true,
       "removed_unused_textures": true,
