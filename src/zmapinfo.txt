@@ -137,3 +137,14 @@ map MAP08 "Infected Core" {
   Next = endpic, "END"
   Cluster = 3
 }
+
+map MAP10 "???" {
+  Par = 999
+  Sky1 = "BLACK"
+  Music = "ANTRSOLU"
+  ExitPic = "INTER06X"
+  EnterPic = "INTER06E"
+  Cluster = 3
+  VertWallShade = 32
+  HorizWallShade = -32
+}
