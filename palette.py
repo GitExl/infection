@@ -15,8 +15,8 @@ def generate_base_palette():
     base.extend(Palette.from_gradient(Color.from_rgb(79, 59, 43), Color.from_rgb(63, 43, 27), 3).alter(0, -0.05, -0.02))
 
     # Red, flesh
-    base.extend(Palette.from_gradient(Color.from_rgb(255, 183, 183), Color.from_rgb(163, 59, 59), 16).alter(5, -0.03, -0.05))
-    base.extend(Palette.from_gradient(Color.from_rgb(155, 51, 51), Color.from_rgb(67, 0, 0), 16).alter(5, -0.03, -0.05))
+    base.extend(Palette.from_gradient(Color.from_rgb(255, 183, 183), Color.from_rgb(163, 59, 59), 16).alter(5, -0.04, -0.04))
+    base.extend(Palette.from_gradient(Color.from_rgb(155, 51, 51), Color.from_rgb(67, 0, 0), 16).alter(5, -0.04, -0.04))
 
     # Skin\brown
     base.extend(Palette.from_gradient(Color.from_rgb(255, 235, 223), Color.from_rgb(203, 127, 79), 16))
@@ -26,14 +26,14 @@ def generate_base_palette():
     base.extend(Palette.from_gradient(Color.from_rgb(239, 239, 239), Color.from_rgb(35, 35, 35), 32).alter(0, 0, -0.01))
 
     # Green
-    base.extend(Palette.from_gradient(Color.from_rgb(119, 255, 111), Color.from_rgb(11, 23, 7), 16).alter(26, 0, -0.01))
+    base.extend(Palette.from_gradient(Color.from_rgb(119, 255, 111), Color.from_rgb(11, 23, 7), 16).alter(27, 0.05, -0.02))
 
     # Beige
-    base.extend(Palette.from_gradient(Color.from_rgb(191, 167, 143), Color.from_rgb(83, 63, 47), 16).alter(0, 0.04, -0.06))
-    base.extend(Palette.from_gradient(Color.from_rgb(159, 131, 99), Color.from_rgb(67, 51, 27), 8).alter(0, 0.04, -0.06))
+    base.extend(Palette.from_gradient(Color.from_rgb(191, 167, 143), Color.from_rgb(83, 63, 47), 16).alter(0, 0.05, -0.05))
+    base.extend(Palette.from_gradient(Color.from_rgb(159, 131, 99), Color.from_rgb(67, 51, 27), 8).alter(0, 0.05, -0.05))
 
     # Olive
-    base.extend(Palette.from_gradient(Color.from_rgb(123, 127, 99), Color.from_rgb(55, 63, 39), 8).alter(-9, 0.02, -0.05))
+    base.extend(Palette.from_gradient(Color.from_rgb(123, 127, 99), Color.from_rgb(55, 63, 39), 8).alter(-10, 0.03, -0.05))
 
     # Yellow\brown
     base.extend(Palette.from_gradient(Color.from_rgb(255, 255, 115), Color.from_rgb(115, 43, 0), 8).mix(Color.from_rgb(255, 0, 0), 0.08))
@@ -45,14 +45,14 @@ def generate_base_palette():
     # Blue
     blue = Palette.from_gradient(Color.from_rgb(231, 231, 255), Color.from_rgb(27, 27, 255), 8)
     blue.extend(Palette.from_gradient(Color.from_rgb(0, 0, 255), Color.from_rgb(0, 0, 83), 8))
-    base.extend(blue.alter(-25, -0.06, -0.05))
+    base.extend(blue.alter(-26, -0.14, -0.025))
 
     # Orange
     base.extend(Palette.from_gradient(Color.from_rgb(255, 255, 255), Color.from_rgb(255, 127, 27), 8))
     base.extend(Palette.from_gradient(Color.from_rgb(243, 115, 23), Color.from_rgb(175, 67, 0), 8))
 
     # Yellow
-    base.extend(Palette.from_gradient(Color.from_rgb(255, 255, 255), Color.from_rgb(255, 255, 0), 8).mix(Color.from_rgb(255, 0, 0), 0.07))
+    base.extend(Palette.from_gradient(Color.from_rgb(255, 255, 255), Color.from_rgb(255, 255, 0), 8).mix(Color.from_rgb(255, 0, 0), 0.08))
 
     # Ochre
     base.extend(Palette.from_gradient(Color.from_rgb(167, 63, 0), Color.from_rgb(135, 35, 0), 4).mix(Color.from_rgb(255, 0, 0), 0.07))
@@ -61,7 +61,7 @@ def generate_base_palette():
     base.extend(Palette.from_gradient(Color.from_rgb(79, 59, 39), Color.from_rgb(47, 27, 11), 4).alter(0, 0.04, -0.06))
 
     # Dark blue
-    base.extend(Palette.from_gradient(Color.from_rgb(0, 0, 83), Color.from_rgb(0, 0, 0), 8).alter(-22, 0.02, 0))
+    base.extend(Palette.from_gradient(Color.from_rgb(0, 0, 83), Color.from_rgb(0, 0, 0), 8).alter(-26, 0.07, -0.025))
 
     base.append(Color.from_rgb(255, 159, 67))
     base.append(Color.from_rgb(255, 231, 75))
@@ -82,7 +82,7 @@ palettes.append(base)
 
 # Hurt
 for i in range(1, 9):
-    palettes.append(base.mix(Color.from_rgb(255, 0, 0), (1 / 9) * i))
+    palettes.append(base.mix(Color.from_rgb(255, 0, 0), (1.0 / 9.0) * i))
 
 # Pickup
 for i in range(1, 5):
