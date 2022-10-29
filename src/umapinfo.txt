@@ -33,7 +33,7 @@ map MAP04 {
   skytexture = "ESKY1"
   partime = 300
   music = "LIBRARY"
-  next = "MAP04"
+  next = "MAP05"
   exitpic = "INTER04X"
   enterpic = "INTER04E"
   interbackdrop = "README"
@@ -58,7 +58,7 @@ map MAP05 {
   skytexture = "ESKY1"
   partime = 510
   music = "HANGAR7"
-  next = "MAP05"
+  next = "MAP06"
   exitpic = "INTER05X"
   enterpic = "INTER05E"
 }
@@ -68,7 +68,7 @@ map MAP06 {
   skytexture = "ESKY1"
   partime = 420
   music = "ARCADIA"
-  next = "MAP06"
+  next = "MAP07"
   exitpic = "INTER06X"
   enterpic = "INTER06E"
   bossaction = Cyberdemon, 23, 70
@@ -80,7 +80,7 @@ map MAP07 {
   skytexture = "ESKY1"
   partime = 240
   music = "D_DM2INT"
-  next = "MAP07"
+  next = "MAP08"
   exitpic = "INTER07X"
   enterpic = "INTER07E"
   interbackdrop = "README"

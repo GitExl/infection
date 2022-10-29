@@ -95,7 +95,7 @@ map MAP03 "Spillways" {
 map MAP04 "Waystation M-01" {
   Par = 300
   Music = "LIBRARY"
-  Next = "MAP04"
+  Next = "MAP05"
   ExitPic = "INTER04X"
   EnterPic = "INTER04E"
   Cluster = 1
@@ -104,7 +104,7 @@ map MAP04 "Waystation M-01" {
 map MAP05 "Data Bunker" {
   Par = 510
   Music = "HANGAR7"
-  Next = "MAP05"
+  Next = "MAP06"
   ExitPic = "INTER05X"
   EnterPic = "INTER05E"
   Cluster = 2
@@ -113,7 +113,7 @@ map MAP05 "Data Bunker" {
 map MAP06 "Infected Core" {
   Par = 420
   Music = "ARCADIA"
-  Next = "MAP06"
+  Next = "MAP07"
   ExitPic = "INTER06X"
   EnterPic = "INTER06E"
   SpecialAction = "Cyberdemon", "Floor_LowerToLowest", 70, 64
@@ -123,7 +123,7 @@ map MAP06 "Infected Core" {
 map MAP07 "Escape Route" {
   Par = 240
   Music = "D_DM2INT"
-  Next = "MAP07"
+  Next = "MAP08"
   ExitPic = "INTER07X"
   EnterPic = "INTER07E"
   Cluster = 2
