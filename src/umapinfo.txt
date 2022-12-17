@@ -72,6 +72,7 @@ map MAP06 {
   exitpic = "INTER06X"
   enterpic = "INTER06E"
   bossaction = Cyberdemon, 23, 70
+  intertext = clear
 }
 
 map MAP07 {
