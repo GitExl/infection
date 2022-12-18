@@ -51,6 +51,18 @@ Additional Credits to   : Bethesda Softworks, Bioware, Biodegradable,
                           princetontiger, rando, Raven Software, Rex705,
                           RDETalus, Ukiru, Unraveler, Varis Alpha,
                           Velvetic, Vile
+
+Music                   : No More History by Cammy (title, intermission,
+                            MAP07)
+                          Cookie Fangs by Cammy (MAP01)
+                          Reaching Deeper by Eris Falling (MAP02)
+                          Otherworld Voices by Velvetic (MAP03)
+                          Library Part 2 by Muddy (MAP04)
+                          Hangar 7 by Jimmy (MAP05)
+                          Arcadia by Velvetic (MAP06)
+                          The Anthrax Solution by Varis Alpha (MAP08)
+                          Fight the Logic If You Can (short intro) by Chris
+                            Laverdure (intermission text, ending)
 ===========================================================================
 * What is included *
 

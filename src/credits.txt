@@ -15,13 +15,15 @@ Ukiru
 
 Music
 
-Cammy
-Christopher Laverdure
-Eris Falling
-Jimmy
-Muddy
-Varis Alpha
-Velvetic
+Fight the Logic If You Can (short intro) by Chris Laverdure (intermission text, ending)
+Cookie Fangs by Cammy (MAP01)
+Reaching Deeper by Eris Falling (MAP02)
+Otherworld Voices by Velvetic (MAP03)
+Library Part 2 by Muddy (MAP04)
+Hangar 7 by Jimmy (MAP05)
+Arcadia by Velvetic (MAP06)
+No More History by Cammy (title, intermission, MAP07)
+The Anthrax Solution by Varis Alpha (MAP08)
 
 
 Sound
