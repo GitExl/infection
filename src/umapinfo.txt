@@ -125,12 +125,3 @@ map MAP08 {
     "infection would have spread if you",
     "had not taken care of it?"
 }
-
-map MAP10 {
-  levelname = "???"
-  skytexture = "BLACK"
-  partime = 999
-  music = "ANTRSOLU"
-  exitpic = "INTER06X"
-  enterpic = "INTER06E"
-}
