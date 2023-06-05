@@ -1,5 +1,3 @@
-import struct
-
 import PIL
 from PIL.Image import Image
 
@@ -35,8 +33,17 @@ def palettize_image(ctx: Context, namespace: str, name: str, resource: Image) ->
         raise Exception('Cannot palettize "{}": unsupported image mode "{}".'.format(name, img.mode))
 
     # Convert image to target palette.
-    palette_image = ctx.get_palette_for_resource(name)
-    converted = img.quantize(256, palette=palette_image, dither=PIL.Image.NONE)
+    pal, pal_raw = ctx.get_palette_for_resource(name)
+    data_in = img.getdata()
+    data_out = [0] * len(data_in)
+    for i in range(0, len(data_in)):
+        data_out[i] = pal.get_nearest_index_doom(data_in[i])
+    converted = PIL.Image.new('P', img.size)
+    converted.putpalette(pal_raw, 'RGB')
+    converted.putdata(data_out)
+
+    # TODO: use this to convert when https://github.com/python-pillow/Pillow/issues/1852 is fixed
+    # converted = img.quantize(256, palette=palette_image, dither=PIL.Image.NONE)
 
     # Apply alpha mask.
     if mask is not None:

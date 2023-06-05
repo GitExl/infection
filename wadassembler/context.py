@@ -1,12 +1,13 @@
 import json
 from fnmatch import fnmatch
 from pathlib import Path
-from typing import Dict, Optional
+from typing import Dict, Optional, Tuple
 
 import PIL
 from PIL.Image import Image
 
 from common.animatedtextures import AnimatedTextures
+from common.palette import Palette
 from common.texturelist import TextureList
 from common.wad import WADReader, WADWriter
 
@@ -25,8 +26,14 @@ class Context:
         self.wad: WADWriter = WADWriter(Path(self.config['output_wad']), 'PWAD')
         self.source_path: Path = Path(self.config['source_path'])
 
-        self.playpal_file: Optional[Image] = None
-        self.playpal_iwad: Optional[Image] = None
+        # self.playpal_file: Optional[Image] = None
+        self.playpal_file_data: Optional[Palette] = None
+        self.playpal_file_raw: bytes = None
+
+        # self.playpal_iwad: Optional[Image] = None
+        self.playpal_iwad_data: Optional[Palette] = None
+        self.playpal_iwad_raw: bytes = None
+
         self.read_playpal_data()
 
         self.used_textures: Dict[str, int] = {}
@@ -45,19 +52,19 @@ class Context:
         if self.iwad is not None:
             self.iwad.close()
 
-    def get_palette_for_resource(self, name: str) -> PIL.Image.Image:
+    def get_palette_for_resource(self, name: str) -> Tuple[Palette, bytes]:
         for mask, source in self.config['palette_overrides'].items():
             if fnmatch(name, mask):
                 if source == 'iwad':
-                    return self.playpal_iwad
+                    return self.playpal_iwad_data, self.playpal_iwad_raw
                 elif source == 'file':
-                    return self.playpal_file
+                    return self.playpal_file_data, self.playpal_file_raw
                 else:
                     raise Exception('Unknown palette override source "{}"'.format(source))
 
-        if self.playpal_file and self.config['palette_from_file']:
-            return self.playpal_file
-        return self.playpal_iwad
+        if self.playpal_file_data and self.config['palette_from_file']:
+            return self.playpal_file_data, self.playpal_file_raw
+        return self.playpal_iwad_data, self.playpal_iwad_raw
 
     def read_playpal_data(self):
         playpal_index = self.iwad.lump_index('PLAYPAL')
@@ -65,15 +72,19 @@ class Context:
             raise Exception('IWAD has no PLAYPAL lump.')
 
         playpal_lump = self.iwad.lumps[playpal_index]
-        playpal_data = playpal_lump.data[0:768]
-        self.playpal_iwad = PIL.Image.new('P', (8, 8))
-        self.playpal_iwad.putpalette(playpal_data, 'RGB')
+        self.playpal_iwad_raw = playpal_lump.data[:768]
+        # self.playpal_iwad = PIL.Image.new('P', (16, 16))
+        # self.playpal_iwad.putpalette(self.playpal_iwad_raw, 'RGB')
+        self.playpal_iwad_data = Palette()
+        self.playpal_iwad_data.get_data(self.playpal_iwad_raw)
 
         playpal_file = self.source_path / Path('playpal.lmp')
         if playpal_file.exists():
-            playpal_data = playpal_file.read_bytes()[:768]
-            self.playpal_file = PIL.Image.new('P', (8, 8))
-            self.playpal_file.putpalette(playpal_data, 'RGB')
+            self.playpal_file_raw = playpal_file.read_bytes()[:768]
+            # self.playpal_file = PIL.Image.new('P', (16, 16))
+            # self.playpal_file.putpalette(self.playpal_file_raw, 'RGB')
+            self.playpal_file_data = Palette()
+            self.playpal_file_data.get_data(self.playpal_file_raw)
 
     def read_texture_data(self):
         patch_names_index = self.iwad.lump_index('PNAMES')
