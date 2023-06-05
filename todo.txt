@@ -1,2 +1,6 @@
-- Re-record demos, at least 3rd desyncs now
-- ???
+- Test ammo & health with DSDADoom, probably need to slightly improve pistol starts on early maps
+- Increase difficulty? https://www.youtube.com/watch?v=Fp0MNBft_ys e.a.
+- Door combat is too easy?
+- "Corruption" on Hanging Cyberdemon sprite
+- Add new map utilizing corruption after teleport at the end of the corrupted area
+- Re-record demos, at least the 3rd demo desyncs now
